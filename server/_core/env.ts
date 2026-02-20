@@ -7,4 +7,7 @@ export const ENV = {
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
+  zenodoApiToken: process.env.ZENODO_API_TOKEN ?? "",
+  zenodoOrcid: process.env.ZENODO_ORCID ?? "0009-0005-0663-7832",
+  openRouterApiKey: process.env.OPENROUTER_API_KEY ?? "",
 };
