@@ -7,7 +7,11 @@ export const ENV = {
   isProduction: process.env.NODE_ENV === "production",
   forgeApiUrl: process.env.BUILT_IN_FORGE_API_URL ?? "",
   forgeApiKey: process.env.BUILT_IN_FORGE_API_KEY ?? "",
-  zenodoApiToken: process.env.ZENODO_API_TOKEN ?? "",
-  zenodoOrcid: process.env.ZENODO_ORCID ?? "0009-0005-0663-7832",
+  // RevvelPress custom
   openRouterApiKey: process.env.OPENROUTER_API_KEY ?? "",
+  zenodoApiToken: process.env.ZENODO_API_TOKEN ?? "",
+  zenodoOrcid: process.env.ZENODO_ORCID ?? "",
+  adminEmail: process.env.ADMIN_EMAIL ?? "angelreporters@gmail.com",
+  stripeSecretKey: process.env.STRIPE_SECRET_KEY ?? "",
+  stripeWebhookSecret: process.env.STRIPE_WEBHOOK_SECRET ?? "",
 };
